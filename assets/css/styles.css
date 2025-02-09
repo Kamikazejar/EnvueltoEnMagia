@@ -1,0 +1,405 @@
+/* Estilo para el navbar */
+
+body {
+    background-color: transparent; /* Fondo blanco */
+    font-family: 'Raleway', sans-serif;
+}
+
+
+#navbar {
+    background-color: white; /* Fondo blanco del navbar */
+    border-bottom: 3px solid #d966ff; /* Borde rosado */
+    padding: 10px 0; /* Ajuste de padding */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Estilo del título */
+#titulo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #d966ff; /* Color rosado para el título */
+    text-transform: uppercase;
+    margin: 20px 0;
+    margin-left: 30%;
+    font-family: 'Playfair Display', cursive;
+}
+
+/* Estilo del logo */
+#logomagia {
+    max-width: 140px !important;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Enlaces del navbar */
+.nav-link {
+    color: #d966ff; /* Color rosado */
+    font-size: 1.1rem;
+    margin-right: 120px;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: #9900cc; /* Tono más oscuro de rosado */
+}
+
+
+.icon-link {
+    color: #d966ff; /* Iconos rosados */
+    font-size: 2rem;
+    transition: color 0.3s;
+    margin-bottom: 20px;
+}
+
+.icon-link:hover {
+    color: #9900cc; /* Tono más oscuro de rosado */
+}
+.nav-link.active {
+    color: #9900cc !important; /* Cambia a tu tono de morado deseado */
+    font-weight: bold; /* Opcional: resalta el texto */
+    transition: all 0.3s ease-in-out;
+
+}
+.carousel {
+    width: 980px; /* Ancho del carrusel */
+    margin: 0 auto;
+    overflow: hidden; /* Evita que el contenido sobresalga */
+    background: white; /* Fondo blanco del carrusel */
+    border: 5px solid #d966ff; /* Borde rosado */
+    border-radius: 8px; /* Bordes suaves */
+    margin-top: 10px;
+}
+
+.carousel-item img {
+    width: 100%; /* Ajusta la imagen al ancho del carrusel */
+    height: 100%; /* Llena todo el espacio disponible */
+    object-fit: cover; /* Recorta proporcionalmente las imágenes */
+    background-color: white; /* Fondo blanco para bordes vacíos */
+}
+
+
+h2 {
+    color: #9900cc; /* Morado llamativo */
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-bottom: 25px;
+    letter-spacing: 1.5px; /* Espaciado entre letras */
+}
+.nosotros-section {
+    background-color: #f9f4ff; /* Fondo claro */
+    border-radius: 12px; /* Bordes más suaves */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-top: 30px; /* Espaciado */
+    padding: 40px 0;
+}
+
+.nosotros-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #6f42c1;
+    text-transform: uppercase;
+}
+
+.nosotros-text {
+    color: #6f42c1; /* Morado oscuro */
+    font-size: 1.2rem;
+    line-height: 1.8;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+    text-align: justify;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.nosotros-icons {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.nosotros-icons i {
+    font-size: 2rem;
+    color: #9900cc;
+    margin: 0 10px;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.nosotros-icons i:hover {
+    color: #d966ff;
+    transform: scale(1.2);
+}
+
+/* Sección ¿Por qué elegirnos? */
+.nosotros-subtitle {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #6f42c1;
+    text-transform: uppercase;
+}
+
+.nosotros-feature-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #6f42c1; /* Morado oscuro */
+    margin-top: 10px;
+}
+
+.nosotros-feature-text {
+    color: #9900cc;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+.icono-nosotros {
+    font-size: 3.5rem; /* Aumenta el tamaño */
+    color: #9900cc !important; /* Aplica el color correcto */
+    margin-bottom: 10px; /* Espaciado para los títulos */
+    display: block; /* Asegura que estén centrados */
+    transition: color 0.3s, transform 0.3s;
+}
+
+.icono-nosotros:hover {
+    color: #d966ff !important; /* Color más claro en hover */
+    transform: scale(1.2); /* Pequeña animación al pasar el mouse */
+}
+/* Botón de contacto */
+.btn-hover {
+    display: inline-block;
+    background-color: #6f42c1;
+    color: white;
+    text-transform: uppercase;
+    padding: 12px 24px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-hover:hover {
+    background-color: #8a63d2;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#Productos p {
+    font-size: 1.1rem;
+    color: #9900cc;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.6;
+
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: #f9f4ff;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 15px;
+
+}
+.card-text {
+    font-size: 0.7rem;
+    color: #555; /* Gris oscuro para el texto */
+    margin-top: 10px;
+    line-height: .5;
+
+}
+#FAQs{
+    background-color: #f9f4ff; !important;/* Fondo claro */
+    border-radius: 12px; /* Bordes más suaves */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-top: 30px; /* Espaciado */
+}
+
+
+@media (max-width: 975px) {
+    #logomagia {
+        max-width: 150px;
+        margin-left: 175%;
+    }
+    .nav-link {
+        border-bottom: 1px solid #d966ff;
+    }
+    .carousel {
+        width: 780px;
+    }
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    #titulo {
+        display: none;
+    }
+
+    #logomagia {
+        max-width: 150px;
+        margin-left: 90%;
+    }
+    .nav-link {
+        border-bottom: 1px solid #d966ff;
+    }
+    .carousel {
+        width: 580px;
+    }
+}
+
+@media (max-width: 480px) {
+    #logomagia {
+        max-width: 150px;
+        margin-left: 60%;
+    }
+    .nav-link {
+        border-bottom: 1px solid #d966ff;
+    }
+    .carousel {
+        width: 350px;
+    }
+}
+
+
+#textfaq{
+    padding-left: 5%;
+    text-align: center;
+}
+
+#faqcontent{
+    padding-left: 3%;
+    color: #9900cc;
+}
+
+.faq-header{
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    border-bottom: 1px dotted #ccc;
+    padding: 24px;
+    max-width: 1320px;
+}
+
+.faq-content {
+    margin: 0 auto;
+}
+
+.faq-question {
+    padding: 20px 0;
+    border-bottom: 1px dotted #ccc;
+}
+
+.panel-title {
+    font-size: 22px;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 10px 10px 0 48px;
+    display: block;
+    cursor: pointer;
+}
+
+.panel-content {
+    font-size: 20px;
+    padding: 0px 14px;
+    margin: 0 40px;
+    height: 0;
+    overflow: hidden;
+    z-index: 0;
+    position: relative;
+    opacity: 0;
+    -webkit-transition: .4s ease;
+    -moz-transition: .4s ease;
+    -o-transition: .4s ease;
+    transition: .4s ease;
+
+}
+
+.panel:checked ~ .panel-content{
+    height: auto;
+    opacity: 1;
+    padding: 14px;
+}
+
+.plus {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 4px;
+    z-index: 5;
+    font-size: 42px;
+    line-height: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-transition: .2s ease;
+    -moz-transition: .2s ease;
+    -o-transition: .2s ease;
+    transition: .2s ease;
+}
+
+.panel:checked ~ .plus {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.panel {
+    display: none;
+}
+footer {
+    padding: 20px 0;
+    border-top: 3px solid #d966ff;
+
+}
+footer h6 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #8A2BE2 !important;
+
+}
+footer p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+footer a {
+    color: #8A2BE2 !important;  /* Morado para los links */
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: #5E2CAE; !important; /* Oscurece el morado al hover */
+}
+footer i {
+    margin-right: 8px;
+    color: #8A2BE2 !important;
+}
+footer .fab {
+    font-size: 2rem;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+footer .fab.fa-whatsapp {
+    color: #8A2BE2 !important; /* Color oficial de WhatsApp */
+}
+
+footer .fas {
+    font-size: 1.2em;
+    margin-right: 5px;
+}
