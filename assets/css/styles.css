@@ -38,8 +38,8 @@ body {
 /* Enlaces del navbar */
 .nav-link {
     color: #d966ff; /* Color rosado */
-    font-size: 1.1rem;
-    margin-right: 120px;
+    font-size: 1.3rem;
+    margin-right: 80px;
     text-transform: uppercase;
 }
 
@@ -221,8 +221,127 @@ h2 {
     line-height: .5;
 
 }
+
+/* Sección de Testimonios */
+.testimonials-section {
+    background-color: #f9f4ff; /* Fondo claro */
+    padding: 50px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+/* Título de la sección */
+.testimonials-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #6f42c1;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* Carrusel de testimonios */
+.testimonials-carousel {
+    width: 70%;
+    margin: auto;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Cada slide del carrusel */
+.testimonials-carousel .carousel-item {
+    text-align: center;
+    min-height: 300px;
+    background: #f9f4ff
+
+}
+
+/* Caja del testimonio */
+.testimonials-carousel .testimonial-box {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    background: #f9f4ff !important;
+}
+
+/* Imagen de perfil */
+.testimonials-carousel .testimonial-box img {
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+    margin-bottom: 15px !important;
+}
+
+/* Texto del testimonio */
+.testimonials-carousel .testimonial-text {
+    font-size: 1rem !important;
+    color: #6f42c1 !important;
+    line-height: 1.5 !important;
+}
+
+/* Nombre del autor */
+.testimonials-carousel .testimonial-author {
+    font-weight: bold !important;
+    font-size: 1.1rem !important;
+    color: #9900cc !important;
+    margin-top: 10px;
+}
+
+/* Estrellas */
+.testimonials-carousel .star-rating i {
+    color: #ffcc00 !important; /* Color dorado */
+    font-size: 1.2rem !important;
+    margin: 0 2px;
+}
+
+/* Flechas de navegación */
+.testimonials-carousel .carousel-control-prev,
+.testimonials-carousel .carousel-control-next {
+    width: 40px;
+    height: 40px;
+    background: #d966ff !important;
+    border-radius: 50%;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;  /* Centra verticalmente */
+    transform: translateY(-50%);  /* Ajuste de posición */
+}
+
+/* Flechas al pasar el mouse */
+.testimonials-carousel .carousel-control-prev:hover,
+.testimonials-carousel .carousel-control-next:hover {
+    background: #9900cc !important;
+}
+
+/* Indicadores del carrusel (centrados) */
+.testimonials-carousel .carousel-indicators {
+    bottom: -30px !important;
+    display: flex;
+    justify-content: center;
+}
+
+/* Indicadores - puntos */
+.testimonials-carousel .carousel-indicators li {
+    background: #8A2BE2 !important;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 5px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.testimonials-carousel .carousel-indicators .active {
+    background: #9900cc !important;
+    opacity: 1;
+}
 #FAQs{
-    background-color: #f9f4ff; !important;/* Fondo claro */
+
     border-radius: 12px; /* Bordes más suaves */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     margin-top: 30px; /* Espaciado */
@@ -258,6 +377,17 @@ h2 {
     .carousel {
         width: 580px;
     }
+    .testimonials-carousel {
+        width: 90%;
+    }
+
+    .testimonials-carousel .testimonial-box {
+        padding: 15px;
+    }
+
+    .testimonials-title {
+        font-size: 1.8rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -270,6 +400,17 @@ h2 {
     }
     .carousel {
         width: 350px;
+    }
+    .testimonials-carousel {
+        width: 90%;
+    }
+
+    .testimonials-carousel .testimonial-box {
+        padding: 15px;
+    }
+
+    .testimonials-title {
+        font-size: 1.8rem;
     }
 }
 
@@ -288,7 +429,7 @@ h2 {
     font-size: 25px;
     font-family:Arial, Helvetica, sans-serif;
     font-style: oblique;
-    border-bottom: 1px dotted #ccc;
+
     padding: 24px;
     max-width: 1320px;
 }
